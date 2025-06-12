@@ -1,0 +1,45 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+               bedde_list: /media/jnu/bedde_list.txt     	[default: None]
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: /media/jnu/BeDDE/             	[default: /media/jnu/RESIDE-unpaired]
+             dataset_mode: simple_bedde                  	[default: unpaired]
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: 3                             	[default: latest]
+                     eval: False                         
+                  gpu_ids: 0                             	[default: -1]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+              method_name: C3_3                          	[default: Mine]
+                    model: refined_DCP                   	[default: test]
+               n_layers_D: 3                             
+                     name: C3                            	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                   netR_J: resnet_9blocks                
+                   netR_T: Reslike                       
+                      ngf: 64                            
+               no_dropout: True                          
+                  no_flip: False                         
+                     norm: instance                      
+                    ntest: inf                           
+                 num_test: 50                            
+              num_threads: 8                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: none                          	[default: scale_min_and_crop]
+              results_dir: ./results/                    
+               save_image: True                          	[default: False]
+           serial_batches: False                         
+                   suffix:                               
+                  verbose: False                         
+----------------- End -------------------
